@@ -9,7 +9,7 @@ const CartListView = () => (
       const {cartList} = value
 
       return (
-        <ul className="cart-list">
+        <ul className='cart-list'>
           {cartList.map(eachCartItem => (
             <CartItem key={eachCartItem.id} cartItemDetails={eachCartItem} />
           ))}
